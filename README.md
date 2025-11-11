@@ -7,7 +7,8 @@ https://github.com/Narri5/project-1
 This project uses a Continuous Integration/Continuous Deployment (CI/CD) pipeline implemented with GitHub Actions, or at least try to use.
 
 CI Status (Linting & Security):
-![CI Workflow Status](INSERT YOUR CI WORKFLOW STATUS BADGE MARKDOWN HERE)
+![CI Workflow Status]
+[![CI](https://github.com/Narri5/project-1/actions/workflows/ci.yml/badge.svg)](https://github.com/Narri5/project-1/actions/workflows/ci.yml)
 
 🎯 Project Overview
 
