@@ -2,7 +2,7 @@ Habit Tracker App for school project.
 
 https://github.com/Narri5/project-1
 
-🛠️ Build Status
+Build Status
 
 This project uses a Continuous Integration/Continuous Deployment (CI/CD) pipeline implemented with GitHub Actions, or at least try to use.
 
@@ -10,7 +10,7 @@ CI Status (Linting & Security):
 ![CI Workflow Status]
 [![CI](https://github.com/Narri5/project-1/actions/workflows/ci.yml/badge.svg)](https://github.com/Narri5/project-1/actions/workflows/ci.yml)
 
-🎯 Project Overview
+Project Overview
 
 This is a single-page application built using vanilla HTML, CSS, and JavaScript. It serves as a simple habit tracker that allows users to add habits, mark daily progress, view the last seven days of activity, and track a live streak count.
 
