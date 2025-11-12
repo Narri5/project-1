@@ -41,7 +41,7 @@ Continuous Deployment (CD): After the CI checks successfully pass, the entire st
 
 Clone the repository:
 
-git clone [https://github.com/YOUR_USERNAME/habit-tracker.git](https://github.com/YOUR_USERNAME/habit-tracker.git)
+git clone [https://github.com/Narri5/habit-tracker.git]
 
 Open index.html in your web browser.
 
