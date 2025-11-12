@@ -7,6 +7,10 @@ on:
     branches: [ main ]
   pull_request:
 
+# Required permissions for potential security tools
+permissions:
+  contents: read
+
 # Single job: lint
 jobs:
   lint:
@@ -18,12 +22,30 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: "20"
-      # Install dependencies if package.json exists
-      - name: Install tools if present
+          
+      # Install dependencies (ESLint) and HTML Linter (htmlhint)
+      - name: Install tools
+        run: |
+          npm ci || npm i
+          # Install htmlhint globally for the job to use
+          npm install -g htmlhint
+          
+      # Run npm audit for high/critical vulnerabilities
+      - name: Dependency audit
         run: |
           if [ -f package.json ]; then
-            npm ci || npm i
+            npm audit --audit-level=high || true
           fi
+      
+      # Run HTML Validation on index.html (STRETCH GOAL)
+      - name: HTML Validation Check (htmlhint)
+        run: |
+          if command -v htmlhint >/dev/null 2>&1; then
+            htmlhint "index.html" || true
+          else
+            echo "htmlhint not found. Skipping HTML validation."
+          fi
+      
       # Run ESLint on app.js
       - name: ESLint check
         run: |
