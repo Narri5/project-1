@@ -1,6 +1,6 @@
 Habit Tracker App for school project.
 
-https://github.com/Narri5/project-1
+https://github.com/Narri5/project-1 patch 3 is the latest working product.
 https://project-1-habit-tracker.onrender.com
 
 Build Status
