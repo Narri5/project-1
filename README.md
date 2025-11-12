@@ -1,6 +1,7 @@
 Habit Tracker App for school project.
 
 https://github.com/Narri5/project-1
+https://project-1-habit-tracker.onrender.com
 
 Build Status
 
@@ -41,16 +42,18 @@ Continuous Deployment (CD): After the CI checks successfully pass, the entire st
 Clone the repository:
 
 git clone [https://github.com/YOUR_USERNAME/habit-tracker.git](https://github.com/YOUR_USERNAME/habit-tracker.git)
-cd habit-tracker
 
 Open index.html in your web browser.
 
-Stretch Goals (Completed/Planned)
+Stretch Goals (Completed)
 
 [Completed] CI/CD Pipeline: Implemented CI for linting and security, and CD to GitHub Pages.
 
 [Completed] HTML Validation: Added htmlhint check to the CI pipeline to validate index.html.
 
-[Pending] Branch Protection: Recommended addition to protect the main branch via pull requests.
+[Completed] Branch Protection: Enabled. I might break something whit this.
+<img width="1920" height="1160" alt="Näyttökuva 2025-11-12 180003" src="https://github.com/user-attachments/assets/8fecf96c-6b56-4272-8459-74b85dac4535" />
 
-[Pending] Lighthouse CI: To be run locally to generate performance, accessibility, and SEO reports.
+[Completed] Lighthouse CI: This generated few repports.
+<img width="859" height="1040" alt="Näyttökuva 2025-11-12 175111" src="https://github.com/user-attachments/assets/ed6153c6-2e53-4482-805f-4ce8add76c16" />
+<img width="859" height="1040" alt="Näyttökuva 2025-11-12 175651" src="https://github.com/user-attachments/assets/b33a87cc-7348-407a-998c-e0dd638b30d5" />
